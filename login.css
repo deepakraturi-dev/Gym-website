@@ -1,0 +1,131 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    line-height: 1.6;
+}
+
+
+/* Navbar */
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #1a1a1a;
+    /* Dark background */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+
+.navbar .logo {
+    font-size: 1.8rem;
+    font-weight: bold;
+    color: #ff2e2e;
+    /* Red logo text */
+    text-transform: uppercase;
+}
+
+.navbar .nav-links {
+    display: flex;
+    gap: 1.5rem;
+}
+
+.navbar .nav-links li {
+    list-style: none;
+}
+
+.navbar .nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1rem;
+    transition: color 0.3s ease;
+    padding: 0.5rem 1rem;
+}
+
+.navbar .nav-links a:hover {
+    color: #ff2e2e;
+    /* Red on hover */
+    border-bottom: 2px solid #ff2e2e;
+    /* Red underline on hover */
+}
+
+
+/* Login Container */
+
+.login-container {
+    background-color: rgba(26, 26, 26, 0.9);
+    padding: 2rem;
+    margin: 6rem 28rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+}
+
+
+/* Form Heading */
+
+.login-form h2 {
+    color: #ff2e2e;
+    /* Red text for heading */
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+
+/* Form Group */
+
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #ffffff;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 0.75rem;
+    border: 1px solid #ff2e2e;
+    /* Red border */
+    border-radius: 4px;
+    background-color: #121212;
+    color: #ffffff;
+    font-size: 1rem;
+}
+
+
+/* Login Button */
+
+.login-btn {
+    width: 100%;
+    padding: 0.75rem;
+    background-color: #ff2e2e;
+    /* Red button */
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.login-btn:hover {
+    background-color: #ffffff;
+    /* White background on hover */
+    color: #ff2e2e;
+    /* Red text on hover */
+}
